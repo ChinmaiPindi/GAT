@@ -1,5 +1,5 @@
 # GAT (Graph Attention Network model)
-GAT model to classify conformation states in protein using MD simulation data and extract communication patterns 
+GAT model to classify conformational states of protein using MD simulation data and extract communication patterns 
 
 This repository contains the code used to train and analyze a Graph Attention Network (GAT) model for identifying conformational states of a protein system from molecular dynamics (MD) simulations. The workflow converts MD trajectory frames into residue-level graph representations and trains a neural network to classify structural states of the protein. The trained model is subsequently analyzed using attention-based methods to identify important residue level communication pathways learned by the network.
 
